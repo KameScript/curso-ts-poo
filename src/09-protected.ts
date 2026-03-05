@@ -5,7 +5,7 @@
  * funciona como una propiedad o método privado, pero nos permite realizar herencia.
  */
 
-export class Animal {
+export abstract class Animal {
   // --- Protected ---
   // Es similar a private, pero nos permite realizar herencia, es decir,
   // las propiedades y métodos protegidos pueden ser accedidos desde la clase padre y desde las clases hijas, pero no desde fuera de la clase.
